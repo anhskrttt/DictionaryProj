@@ -1,0 +1,70 @@
+road	duong
+roadside	le duong
+road sign	bien chi duong
+traffic	giao thong
+vehicle	phuong tien
+car hire	thue xe
+ring road	duong vanh dai
+petrol station	tram bom xang
+kerb	mep via he
+pedestrian crossing	vach sang duong
+turning	cho re, nga re
+fork	nga ba
+toll	le phi qua duong hay qua cau
+toll road	duong co thu le phi
+motorway	xa lo
+hard shoulder	vat dat canh xa lo de dung xe
+dual carriageway	xa lo hai chieu
+one-way street	duong mot chieu
+T-junction	nga ba
+roundabout	bung binh
+accident	tai nan
+breathalyser	dung cu kiem tra do con trong hoi tho
+traffic warden	nhan vien kiem soat viec do xe
+parking meter	may tinh tien do xe
+car park	bai do xe
+parking space	cho do xe
+multi-storey car park	bai do xe nhieu tang
+parking ticket	ve do xe
+driving licence	bang lai xe
+reverse gear	so lui
+learner driver	nguoi tap lai
+passenger	hanh khach
+stall	lam chet may
+tyre pressure	ap suat lop
+traffic light	den giao thong
+speed limit	gioi han toc do
+speeding fine	phat toc do
+level crossing	doan duong ray giao duong cai
+jump leads	day sac dien
+oil	dau
+diesel	dau diesel
+petrol	xang
+unleaded	khong che
+petrol pump	bom xang
+driver	tai xe
+drive	lai xe
+change gear	chuyen so
+jack	don bay
+flat tyre	lop sit
+puncture	thung xam
+car wash	rua xe o to
+driving test	thi bang lai xe
+driving instructor	giao vien day lai xe
+driving lesson	buoi hoc lai xe
+traffic jam	tac duong
+road map	ban do duong di
+mechanic	tho sua may
+garage	ga-ra
+second-hand	do cu
+bypass	duong vong
+services	dich vu
+swerve	ngoat
+signpost	bien bao
+skid	truot banh xe
+speed	toc do
+brake	phanh (verb)
+accelerate	tang toc
+slow down	cham lai
+spray	bui nuoc
+icy road	duong tron vi bang
