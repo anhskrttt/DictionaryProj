@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Exit" />
+          <Menu mnemonicParsing="false" text="Options">
+            <items>
+                  <RadioMenuItem mnemonicParsing="false" text="Vie-Eng">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="groupLang" />
+                     </toggleGroup></RadioMenuItem>
+                  <RadioMenuItem mnemonicParsing="false" selected="true" text="Eng-Vie" toggleGroup="$groupLang" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Help" />
+                  <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <SplitPane dividerPositions="0.3546712802768166" prefHeight="336.0" prefWidth="580.0">
+         <items>
+            <VBox>
+               <children>
+                  <TextField alignment="CENTER" promptText="Enter your word here" />
+                  <ListView fx:id="listView" prefHeight="322.0" prefWidth="202.0" />
+               </children>
+            </VBox>
+            <WebView fx:id="definitionView" prefHeight="332.0" prefWidth="370.0" />
+         </items>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </SplitPane>
+   </children>
+</VBox>
