@@ -1,2 +1,0 @@
-# DictionaryProj
-OOP's Assignment
