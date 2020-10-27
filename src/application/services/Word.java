@@ -1,4 +1,4 @@
-package sample;
+package application;
 
 class Word {
     private String word;

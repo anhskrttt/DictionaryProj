@@ -1,13 +1,6 @@
-package sample;
+package application;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.ListView;
-import javafx.scene.control.Menu;
-import javafx.scene.control.TextField;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.web.WebView;
 
 import javax.speech.Central;
 import javax.speech.synthesis.Synthesizer;
@@ -17,9 +10,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Locale;
 
-import java.net.URI;
-
-import static sample.Utils.*;
+import static application.Utils.*;
 
 public class Controller {
     public void btnSpeakUS_Click(MouseEvent mouseEvent) {

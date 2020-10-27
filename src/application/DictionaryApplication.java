@@ -1,20 +1,12 @@
 package sample;
 
-import java.util.Locale;
-import javax.speech.Central;
-import javax.speech.synthesis.Synthesizer;
-import javax.speech.synthesis.SynthesizerModeDesc;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import javafx.application.Application;
 import javafx.event.EventHandler;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
@@ -24,11 +16,9 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 import java.io.*;
-import java.util.HashMap;
 import java.util.Map;
 
 import static sample.Utils.*;
-import static sample.Controller.*;
 
 public class DictionaryApplication extends Application {
 

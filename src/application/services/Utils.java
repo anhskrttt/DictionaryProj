@@ -1,4 +1,4 @@
-package sample;
+package application;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -21,8 +21,8 @@ public class Utils {
     public static Stage stage = new Stage();
 
     //constant values
-    public static final String DATA_FILE_PATH = "E_V.txt";
-    public static final String FXML_FILE_PATH = "sample/sample.fxml";
+    public static final String DATA_FILE_PATH = "src/resources/text/E_V.txt";
+    public static final String FXML_FILE_PATH = "application/sample.fxml";
     public static final String SPLITTING_CHARACTERS = "<html>";
 
     public static Map<String, Word> data = new HashMap<>();
