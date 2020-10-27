@@ -49,9 +49,8 @@ We are here creating a simple Desktop Application named Dictionary. It would be 
 ### Built With
 We simply use familiar source of code
 * [Java 8](https://www.java.com/en/)
-* [JavaFX](https://openjfx.io/)
-* [freetts](https://freetts.sourceforge.io/)
-
+* [JavaFX 11](https://openjfx.io/) or download [here](https://gluonhq.com/products/javafx/)
+* [freetts 1.2](https://freetts.sourceforge.io/) or download [here](http://sourceforge.net/projects/freetts/files/FreeTTS/FreeTTS%201.2.2/freetts-1.2.2-bin.zip/download?use_mirror=heanet)
 
 
 <!-- GETTING STARTED -->

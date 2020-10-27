@@ -46,7 +46,11 @@ public class Utils {
     public static WebView definitionView;
     @FXML
     public static ImageView btnDelete;
-
+    @FXML
+    public static ImageView btnAdd;
+    @FXML
+    public static ImageView btnEdit;
+    
     //Create an alert window
     public static void showAlertWithoutHeaderText(String mess) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
