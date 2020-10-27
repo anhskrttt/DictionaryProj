@@ -20,23 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dbcabd5-381b-4aec-8a93-8552fe185254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/DictionaryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DictionaryProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DictionaryProj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E_V.txt" beforeDir="false" afterPath="$PROJECT_DIR$/E_V.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Dictionary$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryProj/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E_V.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/text/E_V.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/Resources/Images/back .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/Resources/Images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/Resources/Images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/DictionaryApplication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/DictionaryApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/back .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/dictionary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/dictionary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/exit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/exit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/googleTranslate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/googleTranslate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/history.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/history.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/home1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/home1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/list.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/speaker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/speaker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/Images/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/services/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/DictionaryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/services/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/services/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/FXMLDocument.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/UET/java/JavaFxTutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,6 +105,7 @@
       <recent name="C:\Users\duonanh195\Desktop\DictionaryProj\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duonanh195\Desktop\DictionaryProj\src\Resources\Text" />
       <recent name="E:\DictionaryProj\src\sample" />
       <recent name="E:\DictionaryProj\src" />
       <recent name="E:\DictionaryProj" />
@@ -95,11 +113,11 @@
   </component>
   <component name="RunManager">
     <configuration name="DictionaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.DictionaryApplication" />
+      <option name="MAIN_CLASS_NAME" value="application.DictionaryApplication" />
       <module name="DictionaryProj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="application.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,6 +144,9 @@
       <updated>1603698712466</updated>
       <workItem from="1603780184402" duration="11873000" />
       <workItem from="1603792103797" duration="257000" />
+      <workItem from="1603792478717" duration="1008000" />
+      <workItem from="1603797697477" duration="8000" />
+      <workItem from="1603814783504" duration="3057000" />
     </task>
     <servers />
   </component>
@@ -154,31 +175,31 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603780221653" />
-    <state x="632" y="145" key="FileChooserDialogImpl" timestamp="1603788636807">
+    <state x="632" y="145" key="FileChooserDialogImpl" timestamp="1603797703815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603698758389" />
-    <state x="632" y="145" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603788636807" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1603792359982">
+    <state x="632" y="145" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603797703815" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1603819164295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359982" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1603792359981">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603819164295" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1603819164295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359981" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1603792359981">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603819164295" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1603819164295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359981" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1603792359982">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603819164295" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1603819164295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359982" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603819164295" />
     <state width="1237" height="239" key="GridCell.Tab.1.bottom" timestamp="1603726020266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -1,6 +1,6 @@
-package application;
+package application.services;
 
-class Word {
+public class Word {
     private String word;
     private String def;
 

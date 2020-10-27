@@ -1,6 +1,7 @@
-package application;
+package application.services;
 
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.ListView;
@@ -9,20 +10,26 @@ import javafx.scene.image.ImageView;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
+import javax.speech.EngineException;
 import javax.speech.synthesis.Synthesizer;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
+
+
 
 public class Utils {
     public static Stage stage = new Stage();
+    public static Scene scene;
+
+
 
     //constant values
     public static final String DATA_FILE_PATH = "src/resources/text/E_V.txt";
-    public static final String FXML_FILE_PATH = "application/sample.fxml";
+    public static final String WINDOW_TITLE = "Nah's Dictionary";
+    public static final String INFO_HYPERLINK = "https://github.com/duonanh195/DictionaryProj";
+    public static final String FXML_FILE_PATH = "application/FXMLDocument.fxml";
     public static final String SPLITTING_CHARACTERS = "<html>";
 
     public static Map<String, Word> data = new HashMap<>();
@@ -62,32 +69,20 @@ public class Utils {
         return false;
     }
 
-    public static void closeProgram() {
+    public static void closeProgram() throws EngineException {
         boolean confirm = false;
         confirm = showQuitConfirmation();
         if (confirm) {
-            //Save files
+            //Do something to save files
+
+            // Deallocate the Synthesizer.
+            if(synthesizer != null) {
+                synthesizer.deallocate();
+            }
 
             stage.close();
         }
     }
 
-    public static void saveDataFile() {
-        try {
-            FileWriter writer = new FileWriter("E_V.txt");
-            writer.write("");
-            BufferedWriter buffer = new BufferedWriter(writer);
 
-            for (Map.Entry<String, Word> entry : data.entrySet()) {
-                Word value = entry.getValue();
-                System.out.println(value.getDef());
-                buffer.append(value.getDef());
-                buffer.newLine();
-            }
-            buffer.close();
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }

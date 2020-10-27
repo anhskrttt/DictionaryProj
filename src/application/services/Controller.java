@@ -1,4 +1,4 @@
-package application;
+package application.services;
 
 import javafx.scene.input.MouseEvent;
 
@@ -10,7 +10,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Locale;
 
-import static application.Utils.*;
+import static application.services.Utils.*;
 
 public class Controller {
     public void btnSpeakUS_Click(MouseEvent mouseEvent) {
@@ -37,8 +37,6 @@ public class Controller {
                 synthesizer.speakPlainText(listView.getSelectionModel().selectedItemProperty().getValue(), null);
                 synthesizer.waitEngineState(Synthesizer.QUEUE_EMPTY);
 
-                // Deallocate the Synthesizer.
-                //synthesizer.deallocate();
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -49,7 +47,7 @@ public class Controller {
     }
 
     public void openInfoBrowser() throws URISyntaxException, IOException {
-        URI u = new URI("https://github.com/duonanh195/DictionaryProj");
+        URI u = new URI(INFO_HYPERLINK);
         java.awt.Desktop.getDesktop().browse(u);
     }
 }
