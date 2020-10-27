@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.web.*?>
 
-<VBox fx:id="fis" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Dictionary">
+<VBox fx:id="fis" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <MenuBar prefHeight="49.0" prefWidth="641.0">
-         <menus>
-            <Menu mnemonicParsing="false" text="Exit" />
-            <Menu mnemonicParsing="false" text="Options">
-               <items>
-                  <RadioMenuItem mnemonicParsing="false" text="Vie-Eng">
-                     <toggleGroup>
-                        <ToggleGroup fx:id="groupLang" />
-                     </toggleGroup></RadioMenuItem>
-                  <RadioMenuItem mnemonicParsing="false" selected="true" text="Eng-Vie" toggleGroup="$groupLang" />
-               </items>
-            </Menu>
-            <Menu mnemonicParsing="false" text="Help">
-               <items>
-                  <MenuItem mnemonicParsing="false" text="Help" />
-                  <MenuItem mnemonicParsing="false" text="About" />
-               </items>
-            </Menu>
-         </menus>
-      </MenuBar>
-      <HBox prefHeight="50.0" prefWidth="762.0">
+      <HBox prefHeight="44.0" prefWidth="762.0">
          <children>
             <ImageView fx:id="btnDelete" fitHeight="31.0" fitWidth="24.0">
                <image>
@@ -55,7 +34,7 @@
                   <Insets left="20.0" top="10.0" />
                </HBox.margin>
             </ImageView>
-            <ImageView fx:id="btnHistory" fitHeight="27.0" fitWidth="29.0">
+            <ImageView fx:id="btnInfo" fitHeight="27.0" fitWidth="29.0" onMouseClicked="#openInfoBrowser">
                <image>
                   <Image url="@../Resources/Images/history.png" />
                </image>
@@ -65,34 +44,22 @@
             </ImageView>
          </children>
       </HBox>
-      <SplitPane dividerPositions="0.3546712802768166" prefHeight="387.0" prefWidth="742.0">
+      <SplitPane dividerPositions="0.3546712802768166" prefHeight="387.0" prefWidth="743.0">
          <items>
             <AnchorPane>
                <children>
                   <TextField fx:id="textSearch" layoutX="10.0" layoutY="9.0" prefHeight="39.0" prefWidth="210.0" promptText="Search here..." />
-                  <ImageView fx:id="btnSearch" fitHeight="37.0" fitWidth="28.0" layoutX="231.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                  <ListView fx:id="listView" layoutX="7.0" layoutY="59.0" prefHeight="326.0" prefWidth="257.0" />
+                  <ImageView fx:id="btnSpeakUS" fitHeight="27.0" fitWidth="29.0" layoutX="228.0" layoutY="15.0" onMouseClicked="#btnSpeakUS_Click">
                      <image>
-                        <Image url="@../Resources/Images/search.png" />
+                        <Image url="@../Resources/Images/speaker.png" />
                      </image>
                   </ImageView>
-                  <ListView fx:id="listView" layoutX="7.0" layoutY="59.0" prefHeight="326.0" prefWidth="257.0" />
                </children>
             </AnchorPane>
-            <AnchorPane>
+            <AnchorPane prefWidth="471.0">
                <children>
                   <WebView fx:id="definitionView" layoutX="-2.0" layoutY="3.0" prefHeight="383.0" prefWidth="473.0" />
-                  <ImageView layoutX="400.0" layoutY="28.0">
-                     <image>
-                        <Image url="@../Resources/Images/speaker.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView layoutX="336.0" layoutY="28.0">
-                     <image>
-                        <Image url="@../Resources/Images/speaker.png" />
-                     </image>
-                  </ImageView>
-                  <Label layoutX="365.0" layoutY="27.0" prefHeight="27.0" prefWidth="23.0" text="US" />
-                  <Label layoutX="428.0" layoutY="27.0" prefHeight="27.0" prefWidth="31.0" text="UK" />
                </children>
             </AnchorPane>
          </items>
@@ -110,7 +77,7 @@
                   <Insets left="20.0" />
                </HBox.margin>
             </ImageView>
-            <Label text="NAH Team ❤❤❤" textFill="#f80505">
+            <Label prefHeight="28.0" prefWidth="97.0" text="NAH Team ❤❤❤" textFill="#f80505">
                <HBox.margin>
                   <Insets left="400.0" top="10.0" />
                </HBox.margin>

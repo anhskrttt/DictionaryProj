@@ -20,32 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0dbcabd5-381b-4aec-8a93-8552fe185254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DictionaryProj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/DictionaryApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DictionaryProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/DictionaryCommandline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/DictionaryManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/Test01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/Word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/resources/vocabExport.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProject/resources/vocabImport.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DictionaryProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DictionaryProj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E_V.txt" beforeDir="false" afterPath="$PROJECT_DIR$/E_V.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Dictionary$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Dictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryProj/sample/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryProj/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryProj/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,12 +66,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/UET/java/JavaFxTutorial" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\duonanh195\Desktop\DictionaryProj\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DictionaryProj\src\sample" />
       <recent name="E:\DictionaryProj\src" />
@@ -76,8 +94,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Dictionary" />
+    <configuration name="DictionaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.DictionaryApplication" />
       <module name="DictionaryProj" />
       <extension name="coverage">
         <pattern>
@@ -91,11 +109,14 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.DictionaryApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0dbcabd5-381b-4aec-8a93-8552fe185254" name="Default Changelist" comment="" />
@@ -103,42 +124,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603698712466</updated>
+      <workItem from="1603780184402" duration="11873000" />
+      <workItem from="1603792103797" duration="257000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1603698758389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1603782246566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603782246566" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1603780221653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603780221653" />
+    <state x="632" y="145" key="FileChooserDialogImpl" timestamp="1603788636807">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1603698758389" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1603726020266">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="632" y="145" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603788636807" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1603792359982">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1603726020266">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359982" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1603792359981">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1603726020266">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359981" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1603792359981">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1603726020266">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359981" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1603792359982">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603792359982" />
     <state width="1237" height="239" key="GridCell.Tab.1.bottom" timestamp="1603726020266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -155,10 +195,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="239" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603726020266" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1603782211299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603782211299" />
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603722109231">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1603722109231" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603782050100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1603782050100" />
+    <state x="38" y="22" width="752" height="709" key="dock-window-1" timestamp="1603790969730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="38" y="22" width="752" height="709" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1603790969730" />
     <state x="91" y="1" key="new project wizard" timestamp="1603722132139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
