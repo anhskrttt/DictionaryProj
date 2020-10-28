@@ -1,12 +1,17 @@
 package application.services;
 
 import javafx.event.EventHandler;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.VBox;
 import javafx.scene.web.WebView;
+import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -40,6 +45,8 @@ public class SceneSetup {
         listView = (ListView<String>) scene.lookup("#listView");
         textSearch = (TextField) scene.lookup("#textSearch");
         btnDelete = (ImageView) scene.lookup("#btnDelete");
+        btnAdd = (ImageView) scene.lookup("#btnAdd");
+        
         //Dictionary context = this;
         listView
                 .getSelectionModel()
@@ -73,6 +80,53 @@ public class SceneSetup {
                 deleteWord();
             }
         });
+    
+        btnAdd.setOnMousePressed(event -> {
+            Stage popupwindow=new Stage();
+            popupwindow.setTitle("Add word");
+//            popupwindow.initModality(Modality.APPLICATION_MODAL);
+        
+            TextArea textArea = new TextArea();
+            textArea.setText(String.format(
+                            "VOCAB " +
+                            "<html>" +
+                            "<i> VOCAB </i>\n" +
+                            "\t<!--Type_1 starts here-->\n" +
+                            "<br/><ul><li>\n" +
+                            "<b><i> TYPE_OF_VOCAB </i></b>\n" +
+                            "\t<!--Type_1 Meaning_1 starts here-->\n" +
+                            "<ul><li><font color='#cc0000'><b> MEANING1 </b></font></li></ul>\n" +
+                            "\t<!--Type_1 Meaning_2 starts here-->\n" +
+                            "<ul><li><font color='#cc0000'><b> MEANING2 </b></font></li></ul>\n" +
+                            "\t<!--Add other meanings of this type below here-->\n\n" +
+        
+                            "</li></ul>\n" +
+                            "\t<!--Type_1 ends-->\n" +
+                            "\t<!--Definite other types of this vocab below here-->\n\n\n" +
+                            "</html>", textArea.getText()));
+        
+            Button button = new Button("Done");
+            button.setOnAction(e -> {
+                String[] parts = textArea.getText().split(SPLITTING_CHARACTERS);
+                String word = parts[0];
+                String definition = SPLITTING_CHARACTERS + parts[1];
+                Word wordObj = new Word(word, definition);
+                data.put(word, wordObj);
+            
+                loadWordList();
+                popupwindow.close();
+                showAlertWithoutHeaderText("Thêm từ thành công!");
+            });
+        
+            VBox layout = new VBox();
+            layout.getChildren().addAll(textArea, button);
+            layout.setAlignment(Pos.CENTER);
+        
+            Scene newScene = new Scene(layout, 500, 300);
+            popupwindow.setScene(newScene);
+            popupwindow.showAndWait();
+        });
+        
     }
 
     private void searchWord(String wordInput) {
